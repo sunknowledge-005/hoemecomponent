@@ -16,13 +16,13 @@ def replace_string_in_file(file_path, old_string, new_string):
 
 
 replace_string_in_file("./homeComponents.tsx", 
-                       '//session.storeSecureData(CommonConfig.SESSION_TOKEN, ACCESSTOKEN);',
-                       'session.storeSecureData(CommonConfig.SESSION_TOKEN, ACCESSTOKEN);')
+                       'session.storeSecureData(CommonConfig.SESSION_TOKEN, ACCESSTOKEN);',
+                       '//session.storeSecureData(CommonConfig.SESSION_TOKEN, ACCESSTOKEN);')
 
 replace_string_in_file("./homeComponents.tsx", 
-                       "//navigate('/dashboard');", 
-                       "navigate('/dashboard');")
+                       "navigate('/dashboard');", 
+                       "//navigate('/dashboard');")
 
 replace_string_in_file("./homeComponents.tsx", 
-                       "loginFunc();", 
-                       "//loginFunc();")
+                       "//loginFunc();", 
+                       "loginFunc();")
