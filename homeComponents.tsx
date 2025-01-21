@@ -165,7 +165,7 @@ function Home() {
   const _handleLogin = () =>{
      session.storeSecureData(CommonConfig.SESSION_TOKEN, ACCESSTOKEN);
      navigate('/dashboard');
-     ////loginFunc();
+     //loginFunc();
    }
 
  
